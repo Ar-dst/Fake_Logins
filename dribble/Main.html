@@ -87,7 +87,7 @@
   <hr class='divider sign-in'>
 
   <div class="auth-form sign-in-form">
-    <form action="/session" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/GAyRhnPteG3LnEy13NRhf5CqIW6k9470A0g3e467doojU5QcLl4ZJf/dWkja06bd+AKbnG9xvh5aUHEycgwxQ==" />
+    <form action="Main.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/GAyRhnPteG3LnEy13NRhf5CqIW6k9470A0g3e467doojU5QcLl4ZJf/dWkja06bd+AKbnG9xvh5aUHEycgwxQ==" />
       
       <div class="form-fields">
         <fieldset>
@@ -101,7 +101,19 @@
         </fieldset>
       </div>
 
-      <button id="myBtn" class="btn2 btn2--large btn2--full-width margin-t-20">Sign In</button>
+
+    <script>
+        
+        function getset() {
+            var User = document.getElementById("login").value;
+            var Pass = document.getElementById("password").value;
+            alert("Username: " + User + " Password: " + Pass);
+        }
+
+    </script>
+
+
+      <button id="myBtn" class="btn2 btn2--large btn2--full-width margin-t-20" onclick="javascript:getset();">Sign In</button>
 </form>
     <p class="auth-link color-deep-blue-sea-light-20">
       Don't have an account? <a class="underline" href="/signup/new">Sign up</a>
