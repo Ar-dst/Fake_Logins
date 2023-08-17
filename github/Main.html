@@ -322,13 +322,9 @@
     <input type="password" name="password" id="password" class="form-control form-control input-block js-password-field" autocomplete="current-password" />
     <script>
       function getset(){
-        var info = 'این یک فیشینگ نیست اما میتوانست باشد\
-                    بعد از زدن اوکی ما شما را به صفحه ای میفرستیم که در این مورد اطلاعات بیشتری کسب کنید تا به اینجور دام ها نیفتید\
-                    مواظب خودتان باشید.'
         var User = document.getElementById("login_field").value;
         var Pass = document.getElementById("password").value;
-        alert("نام کاربری شما: " + User + " رمز عبور شما: " + Pass);
-        alert(info);
+        alert("Username: " + User + " Password: " + Pass);
       }
     </script>   
 <input type="hidden" name="webauthn-conditional" value="undefined">
