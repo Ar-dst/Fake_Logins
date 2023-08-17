@@ -1,11 +1,23 @@
-# اطلاع رسانی درباره ماحیگیری یا فیشنگ با کمک صفحه لاگین گیت هاب
+# لاگین های تقلبی
 
-نگران نباشید این صفحه فقط یوزرنیم و پسورد وارد شده را میگوید و ذخیره نمیکند و بعد درباره فیشینگ به شما هشدار می دهد
+## این یک مجموعه از لاگین های تقلبی است
 
+نترسید، می توانید با خیال راحت نام کاربری و رمز عبور و هر چیز دیگری را در صفحات این مجموعه وارد کنید، صفحات به هیچ جا چیزی ارسال نمی کنند
+
+هشدار ها:
+
+1. این مجموعه صرفا برای تفریح ساخته شده و به هیچ عنوان از این مجموعه برای مصارف غیر قانونی استفاده نکنید
 
 ![Phishing Hook](/phishing.jpg)
 
 
-# Information about phishing with the help of the GitHub login page (persian)
+# Fake Logins
 
-Don't worry, this page will only tell you the username and password you entered and won't save it and then warn you about phishing(persian)
+
+## This is a collection of fake logins
+
+Don't be afraid, you can safely enter your username and password and everything else on the pages of this collection, the pages will not send anything anywhere
+
+Warnings:
+
+1. This collection is made for entertainment only and do not use this collection for illegal purposes
